@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -c -Wall -g
-LDFLAGS = -lncursesw -Lsrc/third_party/iniparser -liniparser
+LDFLAGS = -lncursesw -Lsrc/third_party/iniparser -liniparser -Lsrc/third_party/c_vector -lc_vector
 SOURCES = main.c ui_ncurses.c
 OBJECTS = $(SOURCES:.c=.o)
 

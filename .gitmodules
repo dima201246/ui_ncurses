@@ -1,0 +1,6 @@
+[submodule "src/third_party/iniparser"]
+	path = src/third_party/iniparser
+	url = https://github.com/ndevilla/iniparser.git
+[submodule "src/third_party/c_vector"]
+	path = src/third_party/c_vector
+	url = https://github.com/dima201246/c_vector

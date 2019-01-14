@@ -2,6 +2,7 @@
 #include <locale.h>
 
 #include "include/ui_ncurses.h"
+#include "third_party/iniparser/src/iniparser.h"
 
 bool initDisplay() {
 	setlocale(LC_ALL, "");
@@ -18,5 +19,5 @@ bool closeDisplay() {
 
 uint64_t creatTextBox(struct displayObject *display_objects, uint64_t size_x, uint64_t size_y, struct objProperties *properties) {
 
-	return 0;,
+	return 0;
 }
